@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Vite React TypeScript Extension",
+    "version": "1.0",
+    "description": "A browser extension built with Vite, React, and TypeScript",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "vite.svg",
+            "48": "vite.svg",
+            "128": "vite.svg"
+        }
+    },
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab",
+        "storage"
+    ]
+}
